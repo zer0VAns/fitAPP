@@ -1,0 +1,402 @@
+[
+  {
+    "ID": 1,
+    "Nombre": "Sentadilla con barra",
+    "Grupo Muscular": "Piernas (cuádriceps, glúteos)",
+    "Errores Comunes": "Curvar la espalda, subir con los talones levantados",
+    "VideosURL": "https://www.youtube.com/watch?v=dsCuiccYNGs",
+    "Tecnica": "Espalda recta, bajar hasta al menos paralelo"
+  },
+  {
+    "ID": 2,
+    "Nombre": "Peso muerto",
+    "Grupo Muscular": "Espalda baja, glúteos, isquiotibiales",
+    "Errores Comunes": "Jorobarse, levantar con la espalda",
+    "VideosURL": "https://www.youtube.com/watch?v=Vj4NP-oqAZ8",
+    "Tecnica": "Espalda neutra, barra cerca del cuerpo"
+  },
+  {
+    "ID": 3,
+    "Nombre": "Press de banca",
+    "Grupo Muscular": "Pecho",
+    "Errores Comunes": "Rebotar la barra, no usar todo el rango",
+    "VideosURL": "https://www.youtube.com/watch?v=GeLq8cMODLc",
+    "Tecnica": "Barra al pecho, agarre firme, pies apoyados"
+  },
+  {
+    "ID": 4,
+    "Nombre": "Dominadas",
+    "Grupo Muscular": "Espalda alta, dorsales, bíceps",
+    "Errores Comunes": "Balancearse, media repetición",
+    "VideosURL": "https://www.youtube.com/watch?v=AhGIa-3eSLw",
+    "Tecnica": "Subir con mentón sobre la barra"
+  },
+  {
+    "ID": 5,
+    "Nombre": "Press militar",
+    "Grupo Muscular": "Hombros",
+    "Errores Comunes": "Arquear la espalda, no bloquear los codos",
+    "VideosURL": "https://www.youtube.com/watch?v=o5M9RZ-vWrc",
+    "Tecnica": "Empujar con control por encima de la cabeza"
+  },
+  {
+    "ID": 6,
+    "Nombre": "Curl de bíceps con barra",
+    "Grupo Muscular": "Bíceps",
+    "Errores Comunes": "Usar impulso, subir solo con hombros",
+    "VideosURL": "https://www.youtube.com/watch?v=a9hli15uWiA",
+    "Tecnica": "Movimiento controlado, sin balanceo"
+  },
+  {
+    "ID": 7,
+    "Nombre": "Extensión de tríceps en polea",
+    "Grupo Muscular": "Tríceps",
+    "Errores Comunes": "Mover los codos, usar espalda",
+    "VideosURL": "https://www.youtube.com/watch?v=cGEPFQ99pyQ",
+    "Tecnica": "Codos fijos, extensión completa"
+  },
+  {
+    "ID": 8,
+    "Nombre": "Remo con barra",
+    "Grupo Muscular": "Espalda media",
+    "Errores Comunes": "Curvar la espalda, no retraer escápulas",
+    "VideosURL": "https://www.youtube.com/watch?v=3uiWjik2yEQ",
+    "Tecnica": "Espalda recta, tirar con los codos"
+  },
+  {
+    "ID": 9,
+    "Nombre": "Zancadas",
+    "Grupo Muscular": "Piernas (glúteos, cuádriceps)",
+    "Errores Comunes": "Perder el equilibrio, pasos cortos",
+    "VideosURL": "https://www.youtube.com/watch?v=qfKHl9_EvWc",
+    "Tecnica": "Paso largo, rodilla no pasa los dedos"
+  },
+  {
+    "ID": 10,
+    "Nombre": "Elevaciones laterales",
+    "Grupo Muscular": "Hombros (deltoides laterales)",
+    "Errores Comunes": "Subir más de la horizontal, impulso",
+    "VideosURL": "https://www.youtube.com/watch?v=TP6P8-gojO8",
+    "Tecnica": "Brazo semi flexionado, subir hasta el hombro"
+  },
+  {
+    "ID": 11,
+    "Nombre": "Crunch abdominal",
+    "Grupo Muscular": "Abdominales",
+    "Errores Comunes": "Tirar del cuello, usar impulso",
+    "VideosURL": "https://www.youtube.com/watch?v=OsUz898onTE",
+    "Tecnica": "Barbilla lejos del pecho, subir lento"
+  },
+  {
+    "ID": 12,
+    "Nombre": "Plancha",
+    "Grupo Muscular": "Core",
+    "Errores Comunes": "Subir glúteos, hundir la espalda",
+    "VideosURL": "https://www.youtube.com/watch?v=d0atctiI7Vw&pp=0gcJCfcAhR29_xXO",
+    "Tecnica": "Cuerpo alineado, abdomen contraído"
+  },
+  {
+    "ID": 13,
+    "Nombre": "Jalón al pecho",
+    "Grupo Muscular": "Espalda (dorsales)",
+    "Errores Comunes": "Tirar detrás de la cabeza, impulso",
+    "VideosURL": "https://www.youtube.com/watch?v=x2Y6Mb41zjY",
+    "Tecnica": "Tirar al pecho, no balancearse"
+  },
+  {
+    "ID": 14,
+    "Nombre": "Fondos en paralelas",
+    "Grupo Muscular": "Tríceps, pecho",
+    "Errores Comunes": "Bajar poco, colapsar los hombros",
+    "VideosURL": "https://www.youtube.com/watch?v=CjGPpeM_Kog",
+    "Tecnica": "Cuerpo vertical para tríceps"
+  },
+  {
+    "ID": 15,
+    "Nombre": "Press inclinado con mancuernas",
+    "Grupo Muscular": "Pecho superior",
+    "Errores Comunes": "Arqueo excesivo, rebote",
+    "VideosURL": "https://www.youtube.com/watch?v=MkMf308jXww",
+    "Tecnica": "Controlar bajada, juntar mancuernas arriba"
+  },
+  {
+    "ID": 16,
+    "Nombre": "Sentadilla búlgara",
+    "Grupo Muscular": "Glúteos, cuádriceps",
+    "Errores Comunes": "Rodilla inestable, mal apoyo trasero",
+    "VideosURL": "https://www.youtube.com/watch?v=IE3ZJezh-wc",
+    "Tecnica": "Pie trasero elevado, bajar recto"
+  },
+  {
+    "ID": 17,
+    "Nombre": "Hip thrust",
+    "Grupo Muscular": "Glúteos",
+    "Errores Comunes": "Hiperextender lumbar, poco rango",
+    "VideosURL": "https://www.youtube.com/watch?v=1lNuXVeJ1X8",
+    "Tecnica": "Barbilla al pecho, empujar con talones"
+  },
+  {
+    "ID": 18,
+    "Nombre": "Ab roll-out",
+    "Grupo Muscular": "Core",
+    "Errores Comunes": "Caer en exceso, joroba lumbar",
+    "VideosURL": "https://www.youtube.com/watch?v=lCHxLrkHd8g",
+    "Tecnica": "Abdomen firme, no hundir espalda"
+  },
+  {
+    "ID": 19,
+    "Nombre": "Remo en máquina",
+    "Grupo Muscular": "Espalda media",
+    "Errores Comunes": "Tirar con brazos, no retraer escápulas",
+    "VideosURL": "https://www.youtube.com/watch?v=VWyhefUKTp4",
+    "Tecnica": "Movimiento controlado, espalda recta"
+  },
+  {
+    "ID": 20,
+    "Nombre": "Peso muerto rumano",
+    "Grupo Muscular": "Isquiotibiales, glúteos",
+    "Errores Comunes": "Curvar espalda, bajar demasiado",
+    "VideosURL": "https://www.youtube.com/watch?v=PjwHsqgD9dc",
+    "Tecnica": "Piernas semi rectas, barra cerca"
+  },
+  {
+    "ID": 21,
+    "Nombre": "Curl femoral en máquina",
+    "Grupo Muscular": "Isquiotibiales",
+    "Errores Comunes": "Impulso, no estirar completamente",
+    "VideosURL": "https://www.youtube.com/watch?v=w7wHb6pi-8U",
+    "Tecnica": "Controlar bajada, no despegar caderas"
+  },
+  {
+    "ID": 22,
+    "Nombre": "Extensión de cuádriceps",
+    "Grupo Muscular": "Cuádriceps",
+    "Errores Comunes": "Subir con cadera, rebote",
+    "VideosURL": "https://www.youtube.com/watch?v=HYcpmjS1yss",
+    "Tecnica": "Sentarse recto, subir sin impulso"
+  },
+  {
+    "ID": 23,
+    "Nombre": "Face pulls",
+    "Grupo Muscular": "Deltoides posteriores, trapecio",
+    "Errores Comunes": "Tirar bajo, impulso",
+    "VideosURL": "https://www.youtube.com/watch?v=X-xCQ1gh-kA",
+    "Tecnica": "Codos altos, cuerda al rostro"
+  },
+  {
+    "ID": 24,
+    "Nombre": "Farmer walk",
+    "Grupo Muscular": "Trapecios, core, antebrazos",
+    "Errores Comunes": "Espalda encorvada, pasos inestables",
+    "VideosURL": "https://www.youtube.com/watch?v=hx24PM6gXs8",
+    "Tecnica": "Caminar firme, buena postura"
+  },
+  {
+    "ID": 25,
+    "Nombre": "Pull over con mancuerna",
+    "Grupo Muscular": "Pecho, dorsales",
+    "Errores Comunes": "No controlar bajada, exceso de peso",
+    "VideosURL": "https://www.youtube.com/watch?v=qRhCDkJH8Ck",
+    "Tecnica": "Movimiento largo y controlado"
+  },
+  {
+    "ID": 26,
+    "Nombre": "Step up con mancuernas",
+    "Grupo Muscular": "Piernas",
+    "Errores Comunes": "Impulsarse con pierna de apoyo",
+    "VideosURL": "https://www.youtube.com/watch?v=QxZzLH4UwvY",
+    "Tecnica": "Empuje con pierna principal"
+  },
+  {
+    "ID": 27,
+    "Nombre": "Remo con mancuerna",
+    "Grupo Muscular": "Espalda",
+    "Errores Comunes": "Joroba, impulso con torso",
+    "VideosURL": "https://www.youtube.com/watch?v=l4n26ss5oe0",
+    "Tecnica": "Rodilla apoyada, espalda recta"
+  },
+  {
+    "ID": 28,
+    "Nombre": "Prensa de piernas",
+    "Grupo Muscular": "Piernas",
+    "Errores Comunes": "Pies muy arriba o muy abajo, bloquear rodillas",
+    "VideosURL": "https://www.youtube.com/watch?v=xvCynwyNoP4",
+    "Tecnica": "Bajar hasta 90°, pies firmes"
+  },
+  {
+    "ID": 29,
+    "Nombre": "Curl martillo",
+    "Grupo Muscular": "Bíceps (braquiorradial)",
+    "Errores Comunes": "Impulso, separar codos",
+    "VideosURL": "https://www.youtube.com/watch?v=5LxLRVPg2h8",
+    "Tecnica": "Subir lento, pulgares hacia arriba"
+  },
+  {
+    "ID": 30,
+    "Nombre": "Sentadilla goblet",
+    "Grupo Muscular": "Piernas, glúteos",
+    "Errores Comunes": "Arqueo lumbar, rodillas hacia adentro",
+    "VideosURL": "https://www.youtube.com/watch?v=AgD7XRyH05o",
+    "Tecnica": "Pies firmes, mancuerna al pecho"
+  },
+  {
+    "ID": 31,
+    "Nombre": "Tríceps kickback",
+    "Grupo Muscular": "Tríceps",
+    "Errores Comunes": "Movimiento del hombro, poco rango",
+    "VideosURL": "https://www.youtube.com/watch?v=DhC-q_RyJ0Y",
+    "Tecnica": "Codo alto, extensión lenta"
+  },
+  {
+    "ID": 32,
+    "Nombre": "Crunch en polea",
+    "Grupo Muscular": "Abdominales",
+    "Errores Comunes": "Tirar con brazos, no usar core",
+    "VideosURL": "https://www.youtube.com/watch?v=xYIVO1nCm3E",
+    "Tecnica": "Espalda redondeada, codos al muslo"
+  },
+  {
+    "ID": 33,
+    "Nombre": "Jump squat",
+    "Grupo Muscular": "Piernas, explosividad",
+    "Errores Comunes": "Caer con talones levantados, rodillas inestables",
+    "VideosURL": "https://www.youtube.com/watch?v=Azl5tkCzDcc",
+    "Tecnica": "Buena postura al caer"
+  },
+  {
+    "ID": 34,
+    "Nombre": "Clean & press",
+    "Grupo Muscular": "Full body",
+    "Errores Comunes": "Técnica deficiente, usar solo brazos",
+    "VideosURL": "https://www.youtube.com/watch?v=MsOSMJ33CNA",
+    "Tecnica": "Técnica limpia, fase explosiva controlada"
+  },
+  {
+    "ID": 35,
+    "Nombre": "Kettlebell swing",
+    "Grupo Muscular": "Glúteos, espalda baja",
+    "Errores Comunes": "Levantar con brazos, no empujar cadera",
+    "VideosURL": "https://www.youtube.com/watch?v=0GKf0FM9HOM",
+    "Tecnica": "Movimiento de cadera, no de brazos"
+  },
+  {
+    "ID": 36,
+    "Nombre": "Pike push-up",
+    "Grupo Muscular": "Hombros",
+    "Errores Comunes": "Movimiento con cuello, poca profundidad",
+    "VideosURL": "https://www.youtube.com/watch?v=x7_I5SUAd00",
+    "Tecnica": "Inclinación correcta, codos a 45°"
+  },
+  {
+    "ID": 37,
+    "Nombre": "Bench dips",
+    "Grupo Muscular": "Tríceps",
+    "Errores Comunes": "Codos abiertos, caderas caídas",
+    "VideosURL": "https://www.youtube.com/watch?v=EtPHEAOIxUU",
+    "Tecnica": "Codos hacia atrás, no hundir hombros"
+  },
+  {
+    "ID": 38,
+    "Nombre": "Lunge lateral",
+    "Grupo Muscular": "Piernas",
+    "Errores Comunes": "Inclinarse adelante, no empujar con pierna activa",
+    "VideosURL": "https://www.youtube.com/watch?v=XvVHtYqvkS8",
+    "Tecnica": "Cadera atrás, espalda recta"
+  },
+  {
+    "ID": 39,
+    "Nombre": "Glute bridge",
+    "Grupo Muscular": "Glúteos",
+    "Errores Comunes": "Extender lumbar, poca activación",
+    "VideosURL": "https://www.youtube.com/watch?v=zoxz4u0EBss",
+    "Tecnica": "Subir con talones, barbilla al pecho"
+  },
+  {
+    "ID": 40,
+    "Nombre": "Barbell row",
+    "Grupo Muscular": "Espalda",
+    "Errores Comunes": "Levantar torso, tirar con bíceps",
+    "VideosURL": "https://www.youtube.com/watch?v=0LsCQPtS3NU",
+    "Tecnica": "Cuerpo paralelo al suelo, tirar con codos"
+  },
+  {
+    "ID": 41,
+    "Nombre": "Calf raises",
+    "Grupo Muscular": "Gemelos",
+    "Errores Comunes": "Rebote, rango corto",
+    "VideosURL": "https://www.youtube.com/watch?v=c5Kv6-fnTj8&pp=0gcJCdgAo7VqN5tD",
+    "Tecnica": "Movimiento completo, pausa arriba"
+  },
+  {
+    "ID": 42,
+    "Nombre": "Dragon flag",
+    "Grupo Muscular": "Core avanzado",
+    "Errores Comunes": "Caída libre, impulso",
+    "VideosURL": "https://www.youtube.com/watch?v=IDqUp9Z2Iek",
+    "Tecnica": "Control de bajada, tensión total"
+  },
+  {
+    "ID": 43,
+    "Nombre": "Reverse crunch",
+    "Grupo Muscular": "Abdominales bajos",
+    "Errores Comunes": "Usar impulso, no despegar espalda",
+    "VideosURL": "https://www.youtube.com/watch?v=gAyTBB4lm3I",
+    "Tecnica": "Movimiento pélvico, no de piernas"
+  },
+  {
+    "ID": 44,
+    "Nombre": "Overhead squat",
+    "Grupo Muscular": "Core, piernas, movilidad",
+    "Errores Comunes": "Caerse hacia adelante, mala técnica",
+    "VideosURL": "https://www.youtube.com/watch?v=pn8mqlG0nkE",
+    "Tecnica": "Buena movilidad, control total"
+  },
+  {
+    "ID": 45,
+    "Nombre": "Wall sit",
+    "Grupo Muscular": "Piernas (resistencia)",
+    "Errores Comunes": "Subir caderas, inclinar torso",
+    "VideosURL": "https://www.youtube.com/watch?v=B5PPBUagc_4",
+    "Tecnica": "90° exactos, espalda contra pared"
+  },
+  {
+    "ID": 46,
+    "Nombre": "Kettlebell snatch",
+    "Grupo Muscular": "Full body",
+    "Errores Comunes": "Golpearse con pesa, mal giro",
+    "VideosURL": "https://www.youtube.com/watch?v=ZQccQg4kDf8",
+    "Tecnica": "Movimiento fluido, muñeca gira al final"
+  },
+  {
+    "ID": 47,
+    "Nombre": "Turkish get-up",
+    "Grupo Muscular": "Full body, movilidad",
+    "Errores Comunes": "Apurarse, perder tensión",
+    "VideosURL": "https://www.youtube.com/watch?v=-_zTytmHM94",
+    "Tecnica": "Controlar cada paso, mirada en pesa"
+  },
+  {
+    "ID": 48,
+    "Nombre": "Plank to push-up",
+    "Grupo Muscular": "Core, hombros",
+    "Errores Comunes": "Hundir caderas, desalineación",
+    "VideosURL": "https://www.youtube.com/watch?v=BMSMchnMa6o&pp=0gcJCdgAo7VqN5tD",
+    "Tecnica": "Movimiento fluido, mantener core firme"
+  },
+  {
+    "ID": 49,
+    "Nombre": "Push press",
+    "Grupo Muscular": "Hombros, explosividad",
+    "Errores Comunes": "Solo usar brazos, perder equilibrio",
+    "VideosURL": "https://www.youtube.com/watch?app=desktop&v=3uWyAcTHkrM",
+    "Tecnica": "Impulso con piernas, control en bajada"
+  },
+  {
+    "ID": 50,
+    "Nombre": "Sissy squat",
+    "Grupo Muscular": "Cuádriceps",
+    "Errores Comunes": "Caerse atrás, mal ángulo",
+    "VideosURL": "https://www.youtube.com/watch?v=SuSOq25SdxY",
+    "Tecnica": "Rodillas adelante, espalda recta"
+  }
+]

@@ -1,0 +1,88 @@
+.carta-ejercicio {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.video-container img.video-thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-placeholder {
+  background-color: #f0f0f0;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.video-placeholder p {
+  color: #666;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.carta-ejercicio h3 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.carta-ejercicio p {
+  font-size: 0.9rem;
+  margin: 0.3rem 0;
+}
+
+@media (max-width: 768px) {
+  .carta-ejercicio {
+    padding: 0.75rem;
+  }
+
+  .video-placeholder {
+    height: 150px;
+  }
+
+  .carta-ejercicio h3 {
+    font-size: 1.1rem;
+  }
+
+  .carta-ejercicio p {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .carta-ejercicio {
+    padding: 0.5rem;
+  }
+
+  .video-placeholder {
+    height: 120px;
+  }
+
+  .carta-ejercicio h3 {
+    font-size: 1rem;
+  }
+
+  .carta-ejercicio p {
+    font-size: 0.8rem;
+  }
+}

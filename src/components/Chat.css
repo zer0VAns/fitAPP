@@ -1,0 +1,119 @@
+.chat-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chat-messages {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .message {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
+  
+  .message.user {
+    background-color: #e0f7fa;
+    margin-left: 20%;
+    margin-right: 1rem;
+  }
+  
+  .message.ai {
+    background-color: #f1f1f1;
+    margin-right: 20%;
+    margin-left: 1rem;
+  }
+  
+  .chat-container form {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .chat-container input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .chat-container button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .chat-container button:hover {
+    background-color: #555;
+  }
+  
+  /* Estilos para móviles */
+  @media (max-width: 768px) {
+    .chat-container {
+      margin: 1rem;
+      padding: 1rem;
+    }
+  
+    .chat-messages {
+      max-height: 300px;
+      padding: 0.75rem;
+    }
+  
+    .message.user {
+      margin-left: 10%;
+      margin-right: 0.5rem;
+    }
+  
+    .message.ai {
+      margin-right: 10%;
+      margin-left: 0.5rem;
+    }
+  
+    .chat-container form {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    .chat-container input {
+      font-size: 0.9rem;
+      padding: 0.4rem;
+    }
+  
+    .chat-container button {
+      padding: 0.4rem 0.8rem;
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .chat-container {
+      margin: 0.5rem;
+      padding: 0.75rem;
+    }
+  
+    .chat-messages {
+      max-height: 200px;
+      padding: 0.5rem;
+    }
+  
+    .chat-container input {
+      font-size: 0.85rem;
+    }
+  
+    .chat-container button {
+      font-size: 0.85rem;
+    }
+  }
