@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import './EjercicioDetail.css';
+import { ejercicioExtras } from './customContent';
 
 function EjercicioDetail() {
   const { id } = useParams();
@@ -65,6 +66,7 @@ function EjercicioDetail() {
       <p><strong>Grupo Muscular:</strong> {ejercicio.grupo_muscular || 'No disponible'}</p>
       <p><strong>Técnica:</strong> {ejercicio.tecnica || 'No disponible'}</p>
       <p><strong>Errores Comunes:</strong> {ejercicio.errores_comunes || 'No disponible'}</p>
+      {ejercicioExtras[parseInt(id)]?.extraHtml}
     </div>
   );
 }

@@ -88,3 +88,31 @@
       font-size: 0.85rem;
     }
   }
+  .extra-box {
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 0.6s ease-in-out;
+  }
+  
+  .extra-box h3 {
+    margin-bottom: 10px;
+    color: #ffda6a;
+    font-size: 24px;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
