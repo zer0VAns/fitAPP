@@ -18,12 +18,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from ejercicios.views import EjercicioList, EjercicioDetail
-from ejercicios.views import perfil_usuario 
-
+from auth import views_auth
 
 urlpatterns = [
   path('admin/', admin.site.urls),
   path('api/ejercicios/', EjercicioList.as_view(), name='ejercicio-list'),
   path('api/ejercicios/<int:id>/', EjercicioDetail.as_view(), name='ejercicio-detail'),
-  path('api/perfil/', perfil_usuario),
+    path('api/register/', views_auth.register),
+    path('api/login/', views_auth.login),
 ]

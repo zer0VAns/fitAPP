@@ -1,71 +1,123 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import { useAuth0 } from '@auth0/auth0-react';
+import { useRef } from 'react';
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import AuthContext from './AuthContext';
 import './Home.css';
-import Login from './Login';
 
 function Home() {
-    const { isAuthenticated, getAccessTokenSilently } = useAuth0();
-    const [perfil, setPerfil] = useState(null);
 
-    useEffect(() => {
-        const obtenerPerfil = async () => {
-            try {
-                const token = await getAccessTokenSilently();
-                const res = await axios.get('http://localhost:8000/api/perfil/', {
-                    headers: {
-                        Authorization: `Bearer ${token}`,
-                    },
-                });
-                setPerfil(res.data);
-            } catch (error) {
-                console.error('Error al obtener perfil:', error);
-            }
-        };
+    const scrollRef = useRef(null);
+    const animateScroll = () => {
+        const container = scrollRef.current;
+        container.classList.add('animate-scroll');
+        setTimeout(() => {
+            container.classList.remove('animate-scroll');
+        }, 400);
+    };
 
-        if (isAuthenticated) {
-            obtenerPerfil();
+    const scrollRight = () => {
+        const container = scrollRef.current;
+        const maxScrollLeft = container.scrollWidth - container.clientWidth;
+        animateScroll();
+        if (Math.ceil(container.scrollLeft) >= maxScrollLeft) {
+            // Volver al inicio
+            container.scrollTo({ left: 0, behavior: 'smooth' });
+        } else {
+            // Scroll a la derecha
+            container.scrollBy({ left: 420, behavior: 'smooth' });
         }
-    }, [isAuthenticated, getAccessTokenSilently]);
+    };
 
+    const scrollLeft = () => {
+        const container = scrollRef.current;
+        animateScroll();
+        if (container.scrollLeft <= 0) {
+            // Ir al final
+            const maxScrollLeft = container.scrollWidth - container.clientWidth;
+            container.scrollTo({ left: maxScrollLeft, behavior: 'smooth' });
+        } else {
+            // Scroll a la izquierda
+            container.scrollBy({ left: -420, behavior: 'smooth' });
+        }
+    };
+    const { user } = useContext(AuthContext);
     return (
-        <div>
-            <h1>Bienvenido a la página Fitness que necesitas.</h1>
-            <p className='desc'>Crea tu rutina, mira los ejercicios más populares,
-             personaliza tu experiencia según tus objetivos.</p>
-            <p>FitApp llegó para ayudarte a alcanzar tus objetivos</p>
-            <button className='try'>Pruébala gratis</button>
-
-            <p>Mira las opiniones de nuestros clientes</p>
-            <p>.......................................</p>
-            <p>Entrenar no debería ser tan difícil. Llegamos para salvarte la vida.</p>
-            <p>
-                .Rutinas para volumen, mantenerte o perder grasa <br />
-                .Seguimiento de tu progreso <br />
-                .IA entrenada para que te ayude en lo que necesites <br />
-                .Interfaz intuitiva <br />
-                .Ejercicios explicados con la técnica perfecta
-            </p>
-
-            <p>Pruébala que no te vas a arrepentir</p>
-            <button className='try'>Pruébala gratis YA</button>
-
-            <div>
-                <h1>Inicio</h1>
-                {perfil ? (
+        <div className='homeB'>
+            <div className='home'>
+                <div className='titulo-box'>
+                {user ? (
                     <div>
-                        <p><strong>Email:</strong> {perfil.email}</p>
-                        <p><strong>ID:</strong> {perfil.sub}</p>
-                    </div>
-                ) : (
-                    isAuthenticated ? <p>Cargando perfil...</p> : <p>Inicia sesión para ver tu perfil</p>
-                )}
+                    <h1 id='titulo'>Bienvenido de nuevo, {user.username}</h1>
+                    {user.username && (
+                        <div id='perfil'>
+                            <p id='msjFinal'></p>
+                            <span className='perfil-link'  id='f-button'><Link to="/Perfil">Crea tu rutina ya</Link></span>
+                        </div>
+                    )}
+                </div>
+            ) : (
+                <div>
+                <h1 id='titulo'>Bienvenido a la página Fitness que necesitas.</h1>
+                <button id='getStarted'>Get started ></button>
+                </div>
+            )}
+
+                </div>
             </div>
-                <Login />
+
+            <div className="info-section">
+                <p className="intro">Entrenar no debería ser tan difícil. Llegamos para salvarte la vida.</p>
+                <p className="features">
+                    <strong>.</strong>Rutinas para volumen, mantenerte o perder grasa <br />
+                    <strong>.</strong>Seguimiento de tu progreso <br />
+                    <strong>.</strong>IA entrenada para que te ayude en lo que necesites <br />
+                    <strong>.</strong>Interfaz intuitiva <br />
+                    <strong>.</strong>Ejercicios explicados con la técnica perfecta
+                </p>
+            </div>
+
+            <div className="clientes">
+                <p className="desc">
+                    <span>Mira las opiniones de nuestros clientes</span>
+                </p>
+
+                <div className="scroll-wrapper">
+                    <button className="arrow left" onClick={scrollLeft}>←</button>
+
+                    <div className='clientBox' ref={scrollRef}>
+                        <div id='cont-grid'>
+                            <div id='cont1' className='boxclient'></div>
+                            <div id='cont2' className='boxclient'></div>
+                            <div id='cont3' className='boxclient'></div>
+                            <div id='cont4' className='boxclient'></div>
+                            <div id='cont5' className='boxclient'></div>
+                            <div id='cont6' className='boxclient'></div>
+                        </div>
+                    </div>
+
+                    <button className="arrow right" onClick={scrollRight}>→</button>
+                </div>
+            </div>
+            {user ? (
+                <div>
+                    {user.username && (
+                        <div id='perfil'>
+                            <p id='msjFinal'>Que pasa {user.username}? Andas perdido?</p>
+                            <span className='perfil-link'  id='f-button'><Link to="/Perfil">Crea tu rutina ya</Link></span>
+                        </div>
+                    )}
+                </div>
+            ) : (
+                <div>
+                    <div className="cta-container">
+                        <h2 className="cta-title">¿Qué estás esperando?</h2>
+                        <button className="cta-button"><Link to='/Register'>Regístrate ></Link></button>
+                    </div>
+                </div>
+            )}
+
+
         </div>
-
-
-
     );
 }
 

@@ -1,0 +1,49 @@
+.tit{
+    text-align: center;
+}
+
+.perfil-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .perfil-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .perfil-img-wrapper {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 16px;
+    overflow: hidden;
+  }
+  
+  .perfil-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .perfil-placeholder {
+    font-size: 2rem;
+    color: white;
+  }
+  
+  .logout-btn {
+    background: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
